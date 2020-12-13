@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+            
+        <div class="boxter">
+            <p>Registration</p><br>
+            <p><span class="error">* required field</span></p>
+            <form method=post name=reg_form action="register.php">
+                <label for="username" id="txt">Username:</label><br>
+                <input type="text" id="username" name="username" required>
+                <span class="error">*</span>
+                <br>
+                <label for="pwd1" id=txt>Password:</label><br>
+                <input type="password" id="pwd1" name="pwd1" required>
+                <span class="error">*</span>
+                <br>
+                <label for="pwd2" id=txt>Confirm Password:</label><br>
+                <input type="password" id="pwd2" name="pwd2" required>
+                <span class="error">*</span>
+                <br>
+                <p id=txt>Select User Type :</p>
+                <input type="radio" id="buyer" name="usertype" value=1 checked>
+                <label for="buyer" id=txt>Book Buyer</label>
+                <input type="radio" id="seller" name="usertype" value=2>
+                <label for="seller" id=txt>Book Seller</label>
+                <input type="radio" id="merchant" name="usertype" value=3>
+                <label for="merchant" id=txt>Merchant</label><br><br>
+                <input type="submit" value="Submit" id="btn">
+                <input type="reset" id="btn">
+                
+            </form>
+            <a href="index.html" ><button id=btn>Go Back</button></a>
+        </div>
+    </body>
+</html>

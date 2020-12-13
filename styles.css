@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(178, 237, 245);
+    background-image: url("bookkart4.jpg");
+    background-repeat:no-repeat;
+    height:100%;
+    background-size:auto;
+    align-items: center;
+}
+.txt{
+    font-family: fantasy;
+    font-variant: normal;
+    color: black;
+    font-weight: bold;
+    
+}
+p{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+img{
+    width: 30%;
+    height: 10%;
+}
+.boxter{
+    
+    align-self: center;
+    align-content: center;
+    box-align: center;
+    text-align: center;
+    min-width:300px;
+    border: 1px solid rgb(34, 36, 143);
+    padding: 50px;
+    margin-left:35%; 
+    margin-right:25%;
+    border-radius: 15px;
+    background-color:rgb(238, 240, 229);
+    display:inline-block;
+}
+#btn{
+    background-color:rgb(200, 226, 126);
+    color: rgb(255, 254, 254);
+    padding: 3px;
+    margin: 10px;
+    font-size: larger;
+    width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rgbtn{
+    background-color:rgb(16, 167, 236);
+    color: rgb(255, 254, 254);
+    padding: 3px;
+    margin: 10px;
+    width: 60%;
+}
+.tbox{
+    
+    
+    width: 60%;
+    height: 30px;
+}
+
